@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Inspiring Apps</string>
+    <string name="no_api_logs">Couldn\\\'t retrieve log file from server</string>
+    <string name="failure_reading_file">Failure Reading From Log File</string>
+    <string name="failure_downloading_file">Failure Downloading Log File</string>
+
+    <string name="sequence">%1$s \u2192 %2$s \u2192 %3$s</string>
+    <string name="count">Count: %d</string>
+    <string name="read_log_failure">Something went wrong reading the log file</string>
+    <string name="download_log_failure">Something went wrong downloading the log file</string>
+</resources>

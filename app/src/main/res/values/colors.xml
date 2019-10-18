@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/ia_blue</color>
+    <color name="colorPrimaryDark">@color/ia_blue_dark</color>
+    <color name="colorAccent">@color/ia_red</color>
+
+    <color name="ia_blue">#FF1D477E</color>
+    <color name="ia_blue_dark">#FF00144B</color>
+    <color name="ia_red">#FFC22C45</color>
+    <color name="ia_green">#FF929939</color>
+
+    <color name="dark_bkgd">#FF454545</color>
+    <color name="cardview_bkgd">#FFCDCDCD</color>
+
+    <color name="text_white">#FFEEEEEE</color>
+    <color name="text_grey">#FF565656</color>
+</resources>
