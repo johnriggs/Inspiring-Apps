@@ -226,8 +226,10 @@ class MainRepository : MainContract.Repository{
      */
     private fun sortSequenceMap(sequenceCountMap : MutableMap<String, Int>){
         val sequenceArray = sequenceCountMap.entries.toList()
-        logCallback.onLogsApiSuccess(mergeSort(sequenceArray))
-        sendProgressUpdate(TASK_SORT, "100")
+        CoroutineScope(Dispatchers.Main).launch {
+            logCallback.onLogsApiSuccess(mergeSort(sequenceArray))
+        }
+            sendProgressUpdate(TASK_SORT, "100")
     }
 
     private fun mergeSort(list: List<MutableMap.MutableEntry<String, Int>>): List<MutableMap.MutableEntry<String, Int>> {
